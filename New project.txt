@@ -1,0 +1,31 @@
+export default function Home() {
+  return (
+    <main style={{ textAlign: "center", fontFamily: "Arial" }}>
+      <div style={{ background: "#0B1F3A", color: "white", padding: 40 }}>
+        <h1>Fortune Ice</h1>
+        <p>Keeping KwaZulu-Natal Cool</p>
+
+        <a
+          href="https://wa.me/27640834939"
+          style={{
+            background: "#25D366",
+            padding: 12,
+            borderRadius: 8,
+            color: "white",
+            textDecoration: "none"
+          }}
+        >
+          Order on WhatsApp
+        </a>
+      </div>
+
+      <h2>Products</h2>
+      <p>Ice Tube 2kg - R15</p>
+      <p>Ice Tube 3kg - R20</p>
+      <p>Ice Block 3kg - R25</p>
+
+      <h2>Delivery Areas</h2>
+      <p>Mtwalume, Hibberdene, Scottburgh, Umzinto, Port Shepstone</p>
+    </main>
+  );
+}
